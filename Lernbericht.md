@@ -7,6 +7,8 @@ In diesem Projekr war es die Aufgabe, eine Website mithilfe von `HTML` und `CSS`
 
 ## Was habe ich gelernt?
 In diesem Projekt, habe ich natürlich die sprache von `HTML` und `CSS` gelernt, aber besonders die Social bar auf der rechten Seite mit allen Links und auch Hover effekten. 
+
+
 ![Social-Links](https://github.com/Cikle/My-Portfolio/assets/110893288/b91e5812-27a3-48dd-ac56-76947cc54b73)
 
 
