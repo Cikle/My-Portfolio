@@ -1,7 +1,11 @@
 # Portfolio Webseite
 **Ein Projekt aus dem Modul 293**
 
+Website:
 https://cikle.github.io/My-Portfolio/
+
+Lernbericht:
+https://github.com/Cikle/My-Portfolio/blob/main/Lernbericht.md
 
 **Gruppenmitglieder:** Cyril Lutziger
 
