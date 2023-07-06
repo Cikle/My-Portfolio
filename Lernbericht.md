@@ -21,9 +21,9 @@ zuerst musste ich die Bilddateien für die Social-Media-Symbole (z.B. Discord.pn
 
 Dannach fügte ich die folgenden CSS-Regeln in Ihre styles.css-Datei ein oder eine alternative wäre auch diese in den <style>-Bereich innerhalb des <head>-Tags Ihrer HTML-Datei einfügen:
 
+```css
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 
-```css
 .social-links {
     position: fixed;
     top: 50%;
