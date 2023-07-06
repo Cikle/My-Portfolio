@@ -66,22 +66,22 @@ Dannach fügte ich den folgenden HTML-Code an der gewünschten Stelle in dem <bo
 
 Und natürlich musste ich noch sicher stellen, dass die Pfade zu den Bilddateien in ```<img src="...">``` den tatsächlichen Dateinamen und Pfaden entsprechen.
 
-Nachdem Speichern der HTML-Datei|CSS-Date und der öffnung im Webbrowser, sollte die Social-Bar auf der rechten Seite des Bildschirms angezeigt werden, und die Symbole werden beim Hover vergrößert und erhalten einen Schatten. Wenn Sie auf eines der Symbole klicken, öffnet sich die entsprechende Social-Media-Seite in einem neuen Tab.
+Nachdem Speichern der HTML-Datei | CSS-Date und der öffnung im Webbrowser, sollte die Social-Bar auf der rechten Seite des Bildschirms angezeigt werden, und die Symbole werden beim Hover vergrößert und erhalten einen Schatten. Wenn Sie auf eines der Symbole klicken, öffnet sich die entsprechende Social-Media-Seite in einem neuen Tab.
 
 
 ## Verifikationen
 
 * `Textbeschreibung:` Die Textbeschreibung dient zur Verständlichkeit des Codes.
 
-* `Code:` Dieser Code ist ein Beispiel, wie man eine ForEach-Schleife benutzen könnte.
+* `Code:` Dieser Code ist ein Beispiel, wie man eine Social-Bar kriieren könnte.
 
-* `Bild:` Kein Bild vorhanden welches zur Veranschaulichung des Codes dienen würde.
+* `Bild:` Bilder sind vorhanden welches zur Veranschaulichung des Codes dienen.
 
 
 ## Reflexion zum Arbeitsprozess
 
-👍Bei meiner Arbeit lief gut, dass ich sehr schnell voran gekommen bin.
+👍Bei meiner Arbeit lief gut, dass ich sehr schnell fertig geworden bin.
 
-👎Bei meiner Arbeit lief nicht gut, dass ich vielmals Fehler hatte, da ich nicht wusste wie ich mit dem Skript vorgehen musste.
+👎Bei meiner Arbeit lief nicht gut, dass ich viele verschiedene Mockups wie etwa 5 Websites kriiert habe, welche mir zum schluss gar nicht gefallen haben, und somit immer wieder neue kriierte bis zu dem hier.
 
-VBV: Für mein nächstes Projekt nehme ich mir vor, alles besser vorauszuplanen, sowie das PAP früher zu erstellen.
+VBV: Online nach design ideen nachzuschauen, ein gutes Mockup machgen, darüber nachdenken, und die Website einfach anfangen zu machen und auch zuende führen.
