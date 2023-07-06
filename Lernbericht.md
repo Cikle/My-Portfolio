@@ -3,10 +3,13 @@
 **Mitglieder:** Cyril Lutziger
 
 ## Einleitung
-In diesem Projekt war es die Aufgabe, etwas zu automatisieren mithilfe von PowerShell. Ich habe mich dazu entschieden, ein Skript zu schreiben, welches die Verwendung von CPU, Disk und Memory usage misst und diese dann in einer Editor-Datei ausgibt.
+In diesem Projekr war es die Aufgabe, eine Website mithilfe von `HTML` und `CSS` zu erstellen. Ich habe mich dazu entschieden, eine Portfolio Webseite über mich zu machen, welches alle nötigen Informationen über mich beinhalten.
 
 ## Was habe ich gelernt?
-In diesem Projekt habe ich das öffnen und reinschreiben in einer Editor-Datei mithilfe von PowerShell gelernt.
+In diesem Projekt, habe ich natürlich die sprache von `HTML` und `CSS` gelernt, aber besonders die Social bar auf der rechten Seite mit allen Links und auch Hover effekten. 
+![Social-Links](https://github.com/Cikle/My-Portfolio/assets/110893288/b91e5812-27a3-48dd-ac56-76947cc54b73)
+
+
 
 ## Erklärung
 Um eine Editor-Datei zu erstellen und Daten in diese Datei zu schreiben, wird in diesem Skript der Text des Berichts in eine Textdatei geschrieben und anschliessend mit dem Editor geöffnet. Hier ist der relevante Abschnitt des Skripts:
