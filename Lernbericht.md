@@ -64,7 +64,7 @@ Dannach fügte ich den folgenden HTML-Code an der gewünschten Stelle in dem <bo
 </div>
 ```
 
-Und natürlich musste ich noch sicher stellen^, dass die Pfade zu den Bilddateien in <img src="..."> den tatsächlichen Dateinamen und Pfaden entsprechen.
+Und natürlich musste ich noch sicher stellen, dass die Pfade zu den Bilddateien in ```<img src="...">``` den tatsächlichen Dateinamen und Pfaden entsprechen.
 
 Nachdem Speichern der HTML-Datei|CSS-Date und der öffnung im Webbrowser, sollte die Social-Bar auf der rechten Seite des Bildschirms angezeigt werden, und die Symbole werden beim Hover vergrößert und erhalten einen Schatten. Wenn Sie auf eines der Symbole klicken, öffnet sich die entsprechende Social-Media-Seite in einem neuen Tab.
 
