@@ -14,27 +14,60 @@ In diesem Projekt, habe ich natürlich die sprache von `HTML` und `CSS` gelernt,
 
 
 ## Erklärung
-Um eine Editor-Datei zu erstellen und Daten in diese Datei zu schreiben, wird in diesem Skript der Text des Berichts in eine Textdatei geschrieben und anschliessend mit dem Editor geöffnet. Hier ist der relevante Abschnitt des Skripts:
 
-```ps1
-# Define the editor name
-$editorName = "SystemMetricsReport-" + (Get-Date -Format "yyyy-MM-dd-HH-mm-ss")
+Um die Social-Bar zu erstellen, musste ich einige CSS-Regeln hinzufügen und die entsprechenden Bilddateien für die Symbole verwenden. 
 
-# Save the report to a file
-$reportPath = Join-Path -Path $env:TEMP -ChildPath "$editorName.txt"
-$systemMetricsReport | Out-File -FilePath $reportPath -Encoding UTF8
+zuerst musste ich die Bilddateien für die Social-Media-Symbole (z.B. Discord.png, Instagram.png, Github.png) in den gleichen Ordner wie Ihre HTML-Datei hineinfügen.
 
-# Open the report in an editor
-notepad.exe $reportPath
+Dannach fügte ich die folgenden CSS-Regeln in Ihre styles.css-Datei ein oder eine alternative wäre auch diese in den <style>-Bereich innerhalb des <head>-Tags Ihrer HTML-Datei einfügen:
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+```css
+.social-links {
+    position: fixed;
+    top: 50%;
+    right: 1.75%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+}
+
+.social-links a {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.social-links img {
+    width: auto;
+    height: 1.55vh;
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+    opacity: 1;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+}
 ```
 
-Zuerst wird der Name des Editors definiert. In diesem Fall wird der Name des Editors als "SystemMetricsReport-" und das aktuelle Datum und die Uhrzeit im Format "yyyy-MM-dd-HH-mm-ss" verwendet. Dieser Name wird verwendet, um die Editor-Datei zu benennen.
+Dannach fügte ich den folgenden HTML-Code an der gewünschten Stelle in dem <body>-Tag ein:
 
-Der Bericht wird mit dem Befehl Out-File in die Textdatei geschrieben. Dabei wird der Dateipfad für die Datei mit Hilfe des Join-Path-Befehls erstellt. Hier wird das temporäre Verzeichnis des Benutzers ($env:TEMP) als Basispfad verwendet und der Editor-Name ($editorName) mit der Erweiterung ".txt" als Kindpfad hinzugefügt. Der Bericht wird mit UTF-8-Kodierung (-Encoding UTF8) in die Datei geschrieben.
+```html
+<div class="social-links">
+    <a href="https://discord.com/users/507213791889588235" target="_blank"><img src="Discord.png" alt="Discord"></a>
+    <a href="https://www.instagram.com/_cikle/" target="_blank"><img src="Instagram.png" alt="Instagram"></a>
+    <a href="https://github.com/Cikle" target="_blank"><img src="Github.png" alt="Github"></a>
+</div>
+```
 
-Schliesslich wird der Befehl notepad.exe verwendet, um die Editor-Datei mit dem entsprechenden Dateipfad ($reportPath) zu öffnen. Der Editor, der standardmässig mit dem System verbunden ist (in diesem Fall Notepad), wird verwendet, um die Datei zu öffnen.
+Und natürlich musste ich noch sicher stellen^, dass die Pfade zu den Bilddateien in <img src="..."> den tatsächlichen Dateinamen und Pfaden entsprechen.
 
-Durch diese Schritte wird der generierte Bericht in eine Editor-Datei geschrieben und anschliessend automatisch in Notepad oder einem anderen Standardeditor geöffnet.
+Nachdem Speichern der HTML-Datei|CSS-Date und der öffnung im Webbrowser, sollte die Social-Bar auf der rechten Seite des Bildschirms angezeigt werden, und die Symbole werden beim Hover vergrößert und erhalten einen Schatten. Wenn Sie auf eines der Symbole klicken, öffnet sich die entsprechende Social-Media-Seite in einem neuen Tab.
+
 
 ## Verifikationen
 
