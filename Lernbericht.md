@@ -19,7 +19,7 @@ Um die Social-Bar zu erstellen, musste ich einige CSS-Regeln hinzufügen und die
 
 zuerst musste ich die Bilddateien für die Social-Media-Symbole (z.B. Discord.png, Instagram.png, Github.png) in den gleichen Ordner wie Ihre HTML-Datei hineinfügen.
 
-Dannach fügte ich die folgenden CSS-Regeln in Ihre styles.css-Datei ein oder eine alternative wäre auch diese in den <style>-Bereich innerhalb des <head>-Tags Ihrer HTML-Datei einfügen:
+Dannach fügte ich die folgenden CSS-Regeln in Ihre styles.css-Datei ein oder eine alternative wäre auch diese in den `<style>`-Bereich innerhalb des `<head>`-Tags Ihrer HTML-Datei einfügen:
 
 ```css
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
